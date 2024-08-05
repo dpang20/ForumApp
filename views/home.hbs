@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <!-- Add any additional CSS file paths here -->
+</head>
+<body>
+    <h1>Welcome to the Homepage</h1>
+    <ul>
+    {{#each posts}}
+        <li>
+            <h2><a href="/post/{{this._id}}">{{this.title}}</a></h2>
+            <p>{{this.summary}}</p>
+        </li>
+    {{/each}}
+
+    </ul>
+</body>
+</html>

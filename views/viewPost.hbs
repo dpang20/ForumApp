@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{post.title}}</title>
+</head>
+<body>
+    <a href="/report-post/{{post._id}}">Report Post</a>
+    
+    <h1>{{post.title}}</h1>
+    <p>{{post.content}}</p>
+    <h2>Comments</h2>
+    {{#each post.comments}}
+        <div>
+            <li>{{this.content}}</li>
+        </div>
+    {{else}}
+        <p>No comments yet.</p>
+    {{/each}}
+    <a href="/add-comment/{{post._id}}">Add a Comment</a>
+</body>
+</html>

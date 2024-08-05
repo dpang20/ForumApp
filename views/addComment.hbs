@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Comment</title>
+</head>
+<body>
+    <h1>Add a New Comment</h1>
+    <form action="/add-comment/{{postId}}" method="POST">
+        <textarea name="content" required></textarea>
+        <button type="submit">Submit Comment</button>
+    </form>
+</body>
+</html>

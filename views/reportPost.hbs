@@ -1,0 +1,7 @@
+<form class="report-form" action="/report-post/{{postId}}" method="post">
+  <h2>Report Post</h2>
+  <input type="hidden" name="postId" value="{{postId}}">
+  <label for="reason">Reason for reporting:</label>
+  <textarea name="reason" required></textarea>
+  <button type="submit">Submit Report</button>
+</form>
