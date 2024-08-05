@@ -74,21 +74,6 @@ The application will store Comments, and Posts
 * As a user I like the anonimity provided by the site, I do not want to know who is posting
 * As a user, I want to comment on threads so that I can participate in discussions.
 
-## Research Topics
-
-(__TODO__: the research topics that you're planning on working on along with their point values... and the total points of research topics listed)
-
-* (3 Points) Configuration Management (dotenv)
-    * Use dotenv for managing environment variables.
-* (2 points) Use CSS (bootstrap)
-    * Customize bootstrap for styling.
-* (3 points) Use build tools/task runners (Webpack)
-    * Setup Webpack to bundle my assets.
-* (2 points) Integrate ESLint into my workflow 
-    * Add ESLint to check code quality.
-
-10 points total out of 10 required points 
-
 
 ## [Link to Initial Main Project File](app.mjs) 
 
